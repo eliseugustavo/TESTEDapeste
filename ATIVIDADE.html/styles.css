@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+
+body{
+    background-color: rgb(10, 12, 13);
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    font-size: 40px;
+    color:aliceblue;
+    font-weight: bold;
+}   
+
+        samp{
+    color: #145dbd;
+}
+
+
+h2{
+    font-size: 15px;
+    color: #145dbd;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p{
+     resize: none;
+        max-width: 640px;
+        width: 100%;
+        padding: 16px;
+        border: 1px solid #27272a;
+        border-radius: 10px;
+        background: #141419;
+        color: white;
+        outline: none;
+}
+ 
+.campo{
+   display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+label{
+    width: 80px;
+
+}
+
+input{
+    width: 100%;
+    max-width: 640px;
+    padding: 16px;
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    background: #141419;
+    color: white;
+    outline: none;
+}
+
+.recebe h1{
+    font-size: 40px;
+    color: #e6e7e9;
+    font-weight: bold;
+
+} 
+.recebe samp{
+    color: #145dbd;
+}
+
+.recebe p{
+    color: #eaeae4;
+    margin: 30px;
+    text-align: center;
+}
+
+.recebe button{
+    width: 100%;
+    max-width: 640px;
+    background: #145dbd;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+}   
